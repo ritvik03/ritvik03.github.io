@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <title>Ritvik Pandey</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="css/w3.css"> -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <body>
+
+    <div class="topbar">
+      <button id="home_btn_top" class="topbar_btn tablink" onclick="openLink(event, 'Home')"><i class="fa fa-home"></i></button>
+      <button class="topbar_btn tablink" onclick="openLink(event, 'About')"><i class="fa fa-user" aria-hidden="true"></i></button>
+      <button class="topbar_btn tablink" onclick="openLink(event, 'Projects')"><i class="fa fa-code-fork"></i></button>
+      <button class="topbar_btn tablink" onclick="openLink(event, 'Contact')"><i class="fa fa-envelope"></i></button>
+    </div>
+
+    <div class="w3-sidebar w3-bar-block w3-black w3-card tab_btns">
+      <div class=sidebar_content>
+        <h5 class="w3-bar-item logo-title">Ritvik Pandey</h5>
+        <button id="home_btn" class="w3-bar-item w3-button sidebar_btn tablink" onclick="openLink(event, 'Home')"><i class="fa fa-home"></i>Home</button>
+        <button id="abt_btn" class="w3-bar-item w3-button sidebar_btn tablink" onclick="openLink(event, 'About')"><i class="fa fa-user" aria-hidden="true"></i>About</button>
+        <button id="prjt_btn" class="w3-bar-item w3-button sidebar_btn tablink" onclick="openLink(event, 'Projects')"><i class="fa fa-code-fork"></i>Projects</button>
+        <button id="cnt_btn" class="w3-bar-item w3-button sidebar_btn tablink" onclick="openLink(event, 'Contact')"><i class="fa fa-envelope"></i>Contact</button>
+      </div>
+    </div>
+
+    <div class="tab">
+      <div id="Home" class="city w3-animate-left home" style="display:none;">
+        <a href="#" style="text-decoration: None"><img src="assets/profile-pic.jpg"/>
+          <h2>Ritvik Pandey</h2></a>
+          <h3>Coder | Mechanical Engineer | Traveller | Poet</h3>
+          <h4>Trying to change the world  with <!--<div style="text-decoration: underline #f44336; display: inline">-->Creative thinking and Code.<!--</div>--></h4>
+          <div class="socials">
+            <a href="https://www.facebook.com/ritvik.pandey.03"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/ritvik-pandey-03/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a href="https://github.com/ritvik03"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+            <a href="mailto://ritvik.pandey03@gmail.com" background="#fff" color="000"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+      <div id="About" class="city w3-animate-left about" style="display:none">
+        <div class="page_title">About Me</div>
+
+        <div class="main_cover">
+          <div class="intro">
+
+              <div id="dynamic_text"  class="dyn_txt" style="display: table-cell; width: 40%;padding: 10px;vertical-align: top;">
+                <span style="vertical-align: top; min-height: 200px;">Hi! My name is <span style="font-weight: bold; color: black; text-shadow: 1px 2px rgba(255,255,255,0.5);">Ritvik Pandey</span> and <span style="padding-right: 5px;">I'm a</span>
+                  <span style="font-weight: 900!important; text-shadow: 1px 1px rgba(0,0,0,0.8);">
+                    <a href="" class="typewrite" data-period="2000"
+                    data-type='[ "Software Developer.", "CFD-AI Researcher.", "Astronomy Geek.", "Hobby Poet." ]'>
+                    <span class="wrap"></span>
+                    </a>
+                  </span>
+                </span>
+              </div>
+
+              <div class="desc">
+                    <p>
+                      I am a firm believer of the saying that <span style="font-weight: bold;">A man Never stops learning</span>.
+                      It has always been my aim to grasp as much knowledge around me as possible, be it Engineering, Technologies, Astronomy, Politics or Bussiness Strategies and Economics.
+                      Sooner have I realised that knowledge isn't power in itself but how you use it. It has been my goal to formulate and architect solutions with greater impact in the current lines of work
+                      in the fields of Artificial Intelligence (AI), Computational Fluid Dynamics (CFD), Robotics and Software Development.
+                    </p>
+                </div>
+          </div>
+        </div>
+
+        <div class="credentials">
+          <div class="personal">
+            <p><span class="bold">Date of birth: </span> 17th March 1998</p>
+            <p><span class="bold">Phone number: </span> (+91) 7478006888</p>
+            <p><span class="bold">Email: </span> ritvik.pandey03@gmail.com</p>
+            <p><span class="bold">City: </span> Bhopal | Bangalore </p>
+            <p style="margin-bottom: 20px;"><span class="bold">Freelance: </span> Available</p>
+            <div class="resume_btn">
+              <a href="resume.pdf" target="_blank" download>Resume</a>
+            </div>
+          </div>
+
+          <div class="skills">
+            <p><span class="bold">Languages: </span> C++, Python, SQL, R</p>
+            <p><span class="bold">Development: </span> HTML5, CSS3, JS, PHP, Android Studio</p>
+            <p><span class="bold">Machine Learning: </span> Tensorflow, Keras, Pytorch, Caffe</p>
+            <p><span class="bold">Computational Fluid Dynamics: </span> OpenFoam2.4, Gmesh</p>
+            <p><span class="bold">Robotics: </span> Arduino, RaspberryPi, Beaglebone, ROS, CAN</p>
+          </div>
+
+        </div>
+
+        <div class="">
+        </div>
+
+    </div>
+
+      <div id="Projects" class="w3-container city w3-animate-left" style="display:none">
+        <h2>Projects from left</h2>
+        <p>Paris is the capital of France.</p>
+        <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p>
+      </div>
+
+      <div id="Contact" class="w3-container city w3-animate-left" style="display:none">
+        <h2>Contacts from left</h2>
+        <p>Paris is the capital of France.</p>
+        <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p>
+      </div>
+
+    </div>
+
+
+
+  </body>
+  <script src="js/myscript.js"></script>
+</html>
