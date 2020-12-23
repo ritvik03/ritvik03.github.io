@@ -211,6 +211,7 @@ min width = 640 */
   position: relative;
   margin-right: auto;
   margin-top: 20px;
+  margin-inline: auto;
   /* margin: 20px 10px; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
 }
@@ -704,7 +705,8 @@ i{
 .sidebar_btn:hover{
   padding-left: 30px!important;
   transition: 0.6s ease;
-  background: #eee!important;
+  /* background: #eee!important; */
+  font-weight: 500;
 }
 
 .tab_btns{
@@ -760,7 +762,8 @@ i{
 .w3-dropdown-hover:hover > .w3-button:first-child,.w3-dropdown-click:hover > .w3-button:first-child{background-color:#ccc;color:#000}
 .w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:left;padding:8px 16px}
 .w3-bar .w3-button{white-space:normal}
-.w3-button:hover{color:#000!important;background-color:#ccc}
+/* .w3-button:hover{font-weight: bold;} */
+/* .w3-button:hover{color:#000!important;background-color:#ccc} */
 .w3-red,.w3-hover-red:hover{color:#fff!important;background-color:#f44336!important}
 /* .w3-card,.w3-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)} */
 .w3-card-4,.w3-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
