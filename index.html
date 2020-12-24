@@ -21,20 +21,39 @@
       <div class="sk-cube sk-cube9"></div>
     </div> -->
 
-    <div class="topbar">
+    <!-- <div class="topbar">
       <button id="home_btn_top" class="topbar_btn tablink" onclick="openLink(event, 'Home')"><i class="fa fa-home"></i></button>
       <button class="topbar_btn tablink" onclick="openLink(event, 'About')"><i class="fa fa-user" aria-hidden="true"></i></button>
       <button class="topbar_btn tablink" onclick="openLink(event, 'Projects')"><i class="fa fa-code-fork"></i></button>
       <button class="topbar_btn tablink" onclick="openLink(event, 'Blog')"><i class="fa fa-rss"></i></button>
+    </div> -->
+
+    <button id="ham_btn" class="ham">
+
+      <div id="ham_container" class="container" onclick="ham_change(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+
+    </button>
+
+    <div id="mobile-menu" class="mob-menu">
+      <div class="menu-content">
+        <button id="mobile-btn-home" class="mobmenubtn tablink homebtn w3-red" onclick="openLink_mobile(event, 'Home')">Home</button>
+        <button id="mobile-btn-about" class="mobmenubtn tablink abtbtn" onclick="openLink_mobile(event, 'About')">About</button>
+        <button id="mobile-btn-projects" class="mobmenubtn tablink projectbtn" onclick="openLink_mobile(event, 'Projects')">Projects</button>
+        <button id="mobile-btn-blog" class="mobmenubtn tablink blogbtn" onclick="openLink_mobile(event, 'Blog')">Blog</button>
+      </div>
     </div>
 
     <div class="w3-sidebar w3-bar-block w3-black w3-card tab_btns">
       <div class=sidebar_content>
         <h5 class="w3-bar-item logo-title">Ritvik Pandey</h5>
-        <button id="home_btn" class="w3-bar-item w3-button sidebar_btn tablink" onclick="openLink(event, 'Home')"><i class="fa fa-home"></i>Home</button>
-        <button id="abt_btn" class="w3-bar-item w3-button sidebar_btn tablink" onclick="openLink(event, 'About')"><i class="fa fa-user" aria-hidden="true"></i>About</button>
-        <button id="prjt_btn" class="w3-bar-item w3-button sidebar_btn tablink" onclick="openLink(event, 'Projects')"><i class="fa fa-code-fork"></i>Projects</button>
-        <button id="blog_btn" class="w3-bar-item w3-button sidebar_btn tablink" onclick="openLink(event, 'Blog')"><i class="fa fa-rss"></i>Blog</button>
+        <button id="home_btn" class="w3-bar-item w3-button sidebar_btn tablink homebtn" onclick="openLink(event, 'Home')"><i class="fa fa-home"></i>Home</button>
+        <button id="abt_btn" class="w3-bar-item w3-button sidebar_btn tablink abtbtn" onclick="openLink(event, 'About')"><i class="fa fa-user" aria-hidden="true"></i>About</button>
+        <button id="prjt_btn" class="w3-bar-item w3-button sidebar_btn tablink projectbtn" onclick="openLink(event, 'Projects')"><i class="fa fa-code-fork"></i>Projects</button>
+        <button id="blog_btn" class="w3-bar-item w3-button sidebar_btn tablink blogbtn" onclick="openLink(event, 'Blog')"><i class="fa fa-rss"></i>Blog</button>
       </div>
     </div>
 
@@ -48,7 +67,7 @@
             <a href="https://www.facebook.com/ritvik.pandey.03"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
             <a href="https://www.linkedin.com/in/ritvik-pandey-03/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
             <a href="https://github.com/ritvik03"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-            <a href="mailto://ritvik.pandey03@gmail.com" background="#fff" color="000"><i class="fa fa-tumblre" aria-hidden="true"></i></a>
+            <a href="mailto://ritvik.pandey03@gmail.com" background="#fff" color="000"><i class="fa fa-envelope" aria-hidden="true"></i></a>
             <a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
           </div>
         </div>
@@ -433,14 +452,46 @@
 
           <div class="blog_item card_tile">
 
-            <img class="bolg_img" src="assets/R.png"/>
+            <!-- <img class="bolg_img" src="assets/R.png"/> -->
 
             <div class="blog_content">
 
               <h2 class="blog_title">Title of the blog</h2>
 
               <p>
-                Hey there buddy ssup
+                Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup.
+              </p>
+
+            </div>
+
+          </div>
+
+          <div class="blog_item card_tile">
+
+            <!-- <img class="bolg_img" src="assets/R.png"/> -->
+
+            <div class="blog_content">
+
+              <h2 class="blog_title">Title of the blog</h2>
+
+              <p>
+                Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup.
+              </p>
+
+            </div>
+
+          </div>
+
+          <div class="blog_item card_tile">
+
+            <!-- <img class="bolg_img" src="assets/R.png"/> -->
+
+            <div class="blog_content">
+
+              <h2 class="blog_title">Title of the blog</h2>
+
+              <p>
+                Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup.
               </p>
 
             </div>

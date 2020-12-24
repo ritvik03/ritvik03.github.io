@@ -78,3 +78,20 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.1em solid #000}";
     document.body.appendChild(css);
 };
+
+function ham_change(x) {
+  x.classList.toggle("change");
+  // window.alert(x.className);
+  var display_status = document.getElementById('mobile-menu').style.display;
+  if(display_status=="block"){
+    document.getElementById('mobile-menu').style.display = "none";
+  }
+  else{
+    document.getElementById('mobile-menu').style.display = "block";
+  }
+}
+
+function openLink_mobile(evt, animName){
+  openLink(evt,animName);
+  ham_change(document.getElementById("ham_container"));
+}
