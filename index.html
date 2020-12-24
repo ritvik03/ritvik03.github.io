@@ -3,15 +3,29 @@
   <title>Ritvik Pandey</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <link rel="stylesheet" href="css/w3.css"> -->
+  <link rel="icon" href="assets/R.png" sizes="32x32" type="image/png">
   <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Grand+Hotel|Vibur' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <body>
+
+    <!-- <div class="sk-cube-grid">
+      <div class="sk-cube sk-cube1"></div>
+      <div class="sk-cube sk-cube2"></div>
+      <div class="sk-cube sk-cube3"></div>
+      <div class="sk-cube sk-cube4"></div>
+      <div class="sk-cube sk-cube5"></div>
+      <div class="sk-cube sk-cube6"></div>
+      <div class="sk-cube sk-cube7"></div>
+      <div class="sk-cube sk-cube8"></div>
+      <div class="sk-cube sk-cube9"></div>
+    </div> -->
 
     <div class="topbar">
       <button id="home_btn_top" class="topbar_btn tablink" onclick="openLink(event, 'Home')"><i class="fa fa-home"></i></button>
       <button class="topbar_btn tablink" onclick="openLink(event, 'About')"><i class="fa fa-user" aria-hidden="true"></i></button>
       <button class="topbar_btn tablink" onclick="openLink(event, 'Projects')"><i class="fa fa-code-fork"></i></button>
-      <button class="topbar_btn tablink" onclick="openLink(event, 'Contact')"><i class="fa fa-envelope"></i></button>
+      <button class="topbar_btn tablink" onclick="openLink(event, 'Blog')"><i class="fa fa-rss"></i></button>
     </div>
 
     <div class="w3-sidebar w3-bar-block w3-black w3-card tab_btns">
@@ -20,7 +34,7 @@
         <button id="home_btn" class="w3-bar-item w3-button sidebar_btn tablink" onclick="openLink(event, 'Home')"><i class="fa fa-home"></i>Home</button>
         <button id="abt_btn" class="w3-bar-item w3-button sidebar_btn tablink" onclick="openLink(event, 'About')"><i class="fa fa-user" aria-hidden="true"></i>About</button>
         <button id="prjt_btn" class="w3-bar-item w3-button sidebar_btn tablink" onclick="openLink(event, 'Projects')"><i class="fa fa-code-fork"></i>Projects</button>
-        <button id="cnt_btn" class="w3-bar-item w3-button sidebar_btn tablink" onclick="openLink(event, 'Contact')"><i class="fa fa-envelope"></i>Contact</button>
+        <button id="blog_btn" class="w3-bar-item w3-button sidebar_btn tablink" onclick="openLink(event, 'Blog')"><i class="fa fa-rss"></i>Blog</button>
       </div>
     </div>
 
@@ -28,13 +42,13 @@
       <div id="Home" class="city w3-animate-left home" style="display:none;">
         <a href="#" style="text-decoration: None"><img src="assets/home/profile-pic.jpg"/>
           <h2>Ritvik Pandey</h2></a>
-          <h3>Coder | Mechanical Engineer | Traveller | Poet</h3>
+          <h3>Coder | Engineer | Athlete | Poet</h3>
           <h4>Trying to change the world  with <!--<div style="text-decoration: underline #f44336; display: inline">-->Creative thinking and Code.<!--</div>--></h4>
           <div class="socials">
             <a href="https://www.facebook.com/ritvik.pandey.03"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
             <a href="https://www.linkedin.com/in/ritvik-pandey-03/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
             <a href="https://github.com/ritvik03"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-            <a href="mailto://ritvik.pandey03@gmail.com" background="#fff" color="000"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a href="mailto://ritvik.pandey03@gmail.com" background="#fff" color="000"><i class="fa fa-tumblre" aria-hidden="true"></i></a>
             <a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
           </div>
         </div>
@@ -52,6 +66,17 @@
                     data-type='[ "Software Developer.", "CFD-AI Researcher.", "Astronomy Geek.", "Hobby Poet." ]'>
                     <span class="wrap"></span>
                     </a>
+                  </span>
+                </span>
+              </div>
+
+              <div id="static_text"  class="static_txt" style="padding: 10px;vertical-align: top;">
+                <span style="vertical-align: top; min-height: 200px;">Hi! My name is <span style="font-weight: bold; color: black; text-shadow: 1px 2px rgba(255,255,255,0.5);">Ritvik Pandey</span> and <span style="padding-right: 5px;">I'm a</span>
+                  <span style="font-weight: 900!important; text-shadow: 1px 1px rgba(0,0,0,0.8);">
+                    <span class="wrap" style="border-right: 3px solid black; padding-right: 10px;">Software Developer</span>
+                    <span class="wrap" style="border-right: 3px solid black; padding-right: 10px;">CFD-AI Researcher</span>
+                    <span class="wrap" style="border-right: 3px solid black; padding-right: 10px;">Astronomy Geek</span>
+                    <span class="wrap" style="border-right: 3px solid black; padding-right: 10px;">Hobby Poet</span>
                   </span>
                 </span>
               </div>
@@ -224,7 +249,7 @@
             </div>
           </a>
 
-        -->
+          -->
 
           <a href="https://github.com/ritvik03/Hybrid_Navigation_Tech" class="project_tile">
             <img src="assets/projects/hybrid_nav.jpg" class="image"/>
@@ -255,7 +280,7 @@
                 <h2>AI - CFD</h2>
                 <p>
                   Computational Fluid Dynamics is a resource intensive solution to Fluid Dynamics problems while also generating enormous amounts of data.
-                  This amount of data could come handy at training Machine Learning models to either speed up of converge at approximate solutions quicker.
+                  This amount of data could come handy at training Machine Learning models to either speed up or converge at approximate solutions quicker.
                 </p>
                 <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
               </div>
@@ -334,7 +359,7 @@
             <img src="assets/projects/firefighter.jpg" class="image"/>
             <div class="overlay">
               <div class="project_desc">
-                <h2>Firefighter Game</h2>
+                <h2>Baby I'm a Firefighter</h2>
                 <p>PyGame based 2D firefighter game with customizable maps to to test and train preparedness towards any fire hazard in known spaces</p>
                 <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
               </div>
@@ -352,18 +377,87 @@
             </div>
           </a>
 
+          <a href="https://github.com/ritvik03/Image-Stitching" class="project_tile">
+            <img src="assets/projects/pano.jpg" class="image"/>
+            <div class="overlay">
+              <div class="project_desc">
+                <h2>Image Stitcher</h2>
+                <p>Digital Image Stitching project to empass the details of multiple zoomed image and the overview presented by their aggregate larger image for microscopic usage. Same codebase also serves the planar panaromic stitcher for camera applications</p>
+                <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://github.com/ritvik03/Age-Gender_Prediction" class="project_tile">
+            <img src="assets/projects/modiji.jpg" class="image"/>
+            <div class="overlay">
+              <div class="project_desc">
+                <h2>Age-Gender Classifier</h2>
+                <p>Deep Convolution Neural Network based age and gender classifer from facial images trained over IMDB-Wiki and indian image datasets over Caffe framework</p>
+                <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://github.com/ritvik03/Bridge-Detection" class="project_tile">
+            <img src="assets/projects/bridge.jpg" class="image"/>
+            <div class="overlay">
+              <div class="project_desc">
+                <h2>Bridge detection</h2>
+                <p>Algorithm for bridge and watershed detection from SAR Satellite Imaging to design early warning system for flood and tsumani catchment area for coastal and basin areas</p>
+                <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://github.com/ritvik03/Motion-Tracking" class="project_tile">
+            <img src="assets/projects/sperm.jpg" class="image"/>
+            <div class="overlay">
+              <div class="project_desc">
+                <h2>Sperm Motality Inspection</h2>
+                <p>Computer Vision based microscopic video analysis tool to inspect sperm health and motality for IVF treatment. It uses OpenCV's motion tracker module and cluster detection algorithm to rate sample on metric of motality</p>
+                <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
+              </div>
+            </div>
+          </a>
+
         </div>
 
       </div>
 
-      <div id="Contact" class="w3-container city w3-animate-left" style="display:none">
-        <h2>Contacts from left</h2>
-        <p>Paris is the capital of France.</p>
-        <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p>
+      <div id="Blog" class="w3-container city w3-animate-left" style="display:none">
+
+        <div class="page_title">Blog</div>
+
+        <div class="blog_list">
+
+          <div class="blog_item card_tile">
+
+            <img class="bolg_img" src="assets/R.png"/>
+
+            <div class="blog_content">
+
+              <h2 class="blog_title">Title of the blog</h2>
+
+              <p>
+                Hey there buddy ssup
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="thats-all">
+          That's All Folks!
+        </div>
+
       </div>
 
     </div>
 
   </body>
   <script src="js/myscript.js"></script>
+  <script async src="https://assets.tumblr.com/post.js"></script>
 </html>
