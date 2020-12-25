@@ -5,6 +5,7 @@
   background-color: #dcdcdc;
   overflow-x: hidden;
   text-decoration: none;
+  font-family: 'Tinos', serif;
 }
 
 a{
@@ -289,7 +290,7 @@ min width = 640 */
   /* margin: 20px; */
   /* width: 100%; */
   overflow: hidden;
-  margin: 10px 0;
+  margin: 20px 0;
   display: flex;
   flex: 0 0 100%;
   flex-wrap: wrap;
@@ -542,12 +543,17 @@ min width = 640 */
   border-radius: 30px;
   background: #f44336;
   font-weight: 500;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik', sans-serif!important;
   padding: 10px;
   overflow: hidden;
   color: #fff;
   margin: 20px 5px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.resume_btn a{
+  font-family: 'Rubik', sans-serif;
+  font-weight: bolder;
 }
 
 .bold{
@@ -577,7 +583,7 @@ min width = 640 */
 .credentials{
   margin: 5px;
   width: auto;
-  margin-top: 20px;
+  margin-top: 0px;
   overflow-y: hidden;
 }
 
@@ -603,6 +609,7 @@ min width = 640 */
   display: none;
   margin: 10px 0;
   padding: 10px;
+  line-height: 1.2;
 }
 
 .desc{
@@ -619,10 +626,11 @@ min width = 640 */
 }
 
 .desc p{
-  font-family: serif;
+  /* font-family: serif; */
   font-size: 17px;
   font-weight: lighter;
   color: #555;
+  font-family: 'Oranienbaum', serif;
   /* text-align: justify; */
 }
 
@@ -678,14 +686,15 @@ min width = 640 */
   /* text-align: center; */
   font-size: 40px;
   /* font-size-adjust: auto; */
-  font-family: serif;
+  /* font-family: serif; */
+  font-family: 'Oranienbaum', serif;
   color: #fff;
   text-align: center;
   /* -webkit-text-stroke: 1px #000;
 	-webkit-text-fill-color: #fff; */
   text-shadow: 1px 2px rgba(0,0,0,0.5);
   border-radius: 10px;
-  padding: 5px 10px;;
+  padding: 10px 15px;;
   /* padding-left: 10px; */
   border-width: 2px;
   border-color: #000;
@@ -739,9 +748,9 @@ min width = 640 */
 }
 
 .logo-title{
-  font-size: 50px;
-  font-style: italic;
-  font-family: cursive;
+  font-size: 40px;
+  /* font-style: italic; */
+  font-family: 'Cinzel Decorative' , cursive;
   font-weight: bold;
   width: auto;
   /* padding: 0px; */
@@ -808,25 +817,27 @@ i{
 
 .home h3{
   margin-top: 10px;
-  font-style: oblique;
+  /* font-style: oblique; */
   font-weight: 400;
   text-align: center;
-  font-style: italic;
+  /* font-style: italic; */
   background-color: transparent;
   font-size: 25px;
   color: #2f2f2f;
+  font-family: 'Oranienbaum', serif;
 }
 
 .home h2{
   margin-top: 15px;
-  font-style: oblique;
+  /* font-style: oblique; */
   font-weight: 600;
   text-align: center;
   font-style: bold;
-  font-size: 50px;
+  font-size: 40px;
   font-size-adjust: auto;
-  font-family: fantasy;
+  /* font-family: fantasy; */
   color: #0f0f0f;
+  font-family: 'Cinzel Decorative', cursive;
   -webkit-text-stroke: 1px #fff;
 	/* -webkit-text-fill-color: white; */
 }
@@ -840,8 +851,9 @@ i{
 
 .sidebar_btn{
   font-size: 25px;
-  font-family: sans-serif;
-  margin: 20px 0px;
+  /* font-family: sans-serif; */
+  font-family: 'Oranienbaum', serif;
+  margin: 25px 0px;
   width: inherit;
   color: #fff;
   vertical-align: middle;
@@ -1029,7 +1041,7 @@ i{
 .w3-dropdown-hover:hover > .w3-button:first-child,.w3-dropdown-click:hover > .w3-button:first-child{background-color:#ccc;color:#000}
 .w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:left;padding:8px 16px}
 .w3-bar .w3-button{white-space:normal}
-.w3-red,.w3-hover-red:hover{color:#f44336!important; font-weight: 900;}
+.w3-red,.w3-hover-red:hover{color:#f44336!important; font-weight: 1000;}
 /* .w3-button:hover{font-weight: bold;} */
 /* .w3-button:hover{color:#000!important;background-color:#ccc} */
 /* .w3-red,.w3-hover-red:hover{color:#fff!important;background-color:#f44336!important} */
