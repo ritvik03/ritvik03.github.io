@@ -34,480 +34,488 @@
       <button class="topbar_btn tablink" onclick="openLink(event, 'Blog')"><i class="fa fa-rss"></i></button>
     </div> -->
 
-    <button id="ham_btn" class="ham">
-
-      <div id="ham_container" class="container" onclick="ham_change(this)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </div>
-
-    </button>
-
-    <div id="mobile-menu" class="mob-menu">
-      <div class="menu-content">
-        <button id="mobile-btn-home" class="mobmenubtn tablink homebtn" onclick="openLink_mobile(event, 'Home')">Home</button>
-        <button id="mobile-btn-about" class="mobmenubtn tablink abtbtn" onclick="openLink_mobile(event, 'About')">About</button>
-        <button id="mobile-btn-projects" class="mobmenubtn tablink projectbtn" onclick="openLink_mobile(event, 'Projects')">Projects</button>
-        <button id="mobile-btn-blog" class="mobmenubtn tablink blogbtn" onclick="openLink_mobile(event, 'Blog')">Blog</button>
-      </div>
+    <div id="loader_id" class="preloader">
+      <div class="loader"></div>
     </div>
 
-    <div class="w3-sidebar w3-bar-block w3-black w3-card tab_btns">
-      <div class=sidebar_content>
-        <h5 class="w3-bar-item logo-title">Ritvik Pandey</h5>
-        <button id="home_btn" class="w3-bar-item w3-button sidebar_btn tablink homebtn" onclick="openLink(event, 'Home')"><i class="fa fa-home"></i>Home</button>
-        <button id="abt_btn" class="w3-bar-item w3-button sidebar_btn tablink abtbtn" onclick="openLink(event, 'About')"><i class="fa fa-user" aria-hidden="true"></i>About</button>
-        <button id="prjt_btn" class="w3-bar-item w3-button sidebar_btn tablink projectbtn" onclick="openLink(event, 'Projects')"><i class="fa fa-code-fork"></i>Projects</button>
-        <button id="blog_btn" class="w3-bar-item w3-button sidebar_btn tablink blogbtn" onclick="openLink(event, 'Blog')"><i class="fa fa-rss"></i>Blog</button>
-      </div>
-    </div>
+    <div id="everything_id">
 
-    <div class="tab">
-      <div id="Home" class="city w3-animate-left home" style="display:none;">
-        <a href="#" style="text-decoration: None"><img src="assets/home/profile-pic.jpg"/>
-          <h2>Ritvik Pandey</h2></a>
-          <h3>Coder | Engineer | Athlete | Poet</h3>
-          <h4>Trying to change the world  with <!--<div style="text-decoration: underline #f44336; display: inline">-->Creative thinking and Code.<!--</div>--></h4>
-          <div class="socials">
-            <a href="https://www.facebook.com/ritvik.pandey.03"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/ritvik-pandey-03/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-            <a href="https://github.com/ritvik03"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-            <a href="mailto://ritvik.pandey03@gmail.com" background="#fff" color="000"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-            <a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-          </div>
+      <button id="ham_btn" class="ham">
+
+        <div id="ham_container" class="container" onclick="ham_change(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
         </div>
 
-      <div id="About" class="city w3-animate-left about" style="display:none">
-        <div class="page_title">About Me</div>
+      </button>
 
-        <div class="main_cover">
-          <div class="intro">
+      <div id="mobile-menu" class="mob-menu">
+        <div class="menu-content">
+          <button id="mobile-btn-home" class="mobmenubtn tablink homebtn" onclick="openLink_mobile(event, 'Home')">Home</button>
+          <button id="mobile-btn-about" class="mobmenubtn tablink abtbtn" onclick="openLink_mobile(event, 'About')">About</button>
+          <button id="mobile-btn-projects" class="mobmenubtn tablink projectbtn" onclick="openLink_mobile(event, 'Projects')">Projects</button>
+          <button id="mobile-btn-blog" class="mobmenubtn tablink blogbtn" onclick="openLink_mobile(event, 'Blog')">Blog</button>
+        </div>
+      </div>
 
-              <div id="dynamic_text"  class="dyn_txt" style="display: table-cell; width: 40%;padding: 10px;vertical-align: top;">
-                <span style="vertical-align: top; min-height: 200px;">Hi! My name is <span style="font-weight: bold; color: black; text-shadow: 1px 2px rgba(255,255,255,0.5);">Ritvik Pandey</span> and <span style="padding-right: 5px;">I'm a</span>
-                  <span style="font-weight: 900!important; text-shadow: 1px 1px rgba(0,0,0,0.8);">
-                    <a href="" class="typewrite" data-period="2000"
-                    data-type='[ "Software Developer.", "CFD-AI Researcher.", "Astronomy Geek.", "Hobby Poet." ]'>
-                    <span class="wrap"></span>
-                    </a>
+      <div class="w3-sidebar w3-bar-block w3-black w3-card tab_btns">
+        <div class=sidebar_content>
+          <h5 class="w3-bar-item logo-title">Ritvik Pandey</h5>
+          <button id="home_btn" class="w3-bar-item w3-button sidebar_btn tablink homebtn" onclick="openLink(event, 'Home')"><i class="fa fa-home"></i>Home</button>
+          <button id="abt_btn" class="w3-bar-item w3-button sidebar_btn tablink abtbtn" onclick="openLink(event, 'About')"><i class="fa fa-user" aria-hidden="true"></i>About</button>
+          <button id="prjt_btn" class="w3-bar-item w3-button sidebar_btn tablink projectbtn" onclick="openLink(event, 'Projects')"><i class="fa fa-code-fork"></i>Projects</button>
+          <button id="blog_btn" class="w3-bar-item w3-button sidebar_btn tablink blogbtn" onclick="openLink(event, 'Blog')"><i class="fa fa-rss"></i>Blog</button>
+        </div>
+      </div>
+
+      <div id="tab_id" class="tab">
+        <div id="Home" class="city w3-animate-left home" style="display:none;">
+          <a href="#" style="text-decoration: None"><img src="assets/home/profile-pic.jpg"/>
+            <h2>Ritvik Pandey</h2></a>
+            <h3>Coder | Engineer | Athlete | Poet</h3>
+            <h4>Trying to change the world  with <!--<div style="text-decoration: underline #f44336; display: inline">-->Creative thinking and Code.<!--</div>--></h4>
+            <div class="socials">
+              <a href="https://www.facebook.com/ritvik.pandey.03"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/in/ritvik-pandey-03/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+              <a href="https://github.com/ritvik03"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+              <a href="mailto://ritvik.pandey03@gmail.com" background="#fff" color="000"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+              <a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+        <div id="About" class="city w3-animate-left about" style="display:none">
+          <div class="page_title">About Me</div>
+
+          <div class="main_cover">
+            <div class="intro">
+
+                <div id="dynamic_text"  class="dyn_txt" style="display: table-cell; width: 40%;padding: 10px;vertical-align: top;">
+                  <span style="vertical-align: top; min-height: 200px;">Hi! My name is <span style="font-weight: bold; color: black; text-shadow: 1px 2px rgba(255,255,255,0.5);">Ritvik Pandey</span> and <span style="padding-right: 5px;">I'm a</span>
+                    <span style="font-weight: 900!important; text-shadow: 1px 1px rgba(0,0,0,0.8);">
+                      <a href="" class="typewrite" data-period="2000"
+                      data-type='[ "Software Developer.", "CFD-AI Researcher.", "Astronomy Geek.", "Hobby Poet." ]'>
+                      <span class="wrap"></span>
+                      </a>
+                    </span>
                   </span>
-                </span>
-              </div>
+                </div>
 
-              <div id="static_text"  class="static_txt" style="padding: 10px;vertical-align: top;">
-                <span style="vertical-align: top; min-height: 200px;">Hi! My name is <span style="font-weight: bold; color: black; text-shadow: 1px 2px rgba(255,255,255,0.5);">Ritvik Pandey</span> and <span style="padding-right: 5px;">I'm a</span>
-                  <span style="font-weight: 900!important; text-shadow: 1px 1px rgba(0,0,0,0.8);">
-                    <span class="wrap" style="border-right: 4px solid black; padding-right: 10px;">Software Developer</span>
-                    <span class="wrap" style="border-right: 4px solid black; padding-right: 10px;">CFD-AI Researcher</span>
-                    <span class="wrap" style="border-right: 4px solid black; padding-right: 10px;">Astronomy Geek</span>
-                    <span class="wrap" style="padding-right: 10px;">Hobby Poet</span>
+                <div id="static_text"  class="static_txt" style="padding: 10px;vertical-align: top;">
+                  <span style="vertical-align: top; min-height: 200px;">Hi! My name is <span style="font-weight: bold; color: black; text-shadow: 1px 2px rgba(255,255,255,0.5);">Ritvik Pandey</span> and <span style="padding-right: 5px;">I'm a</span>
+                    <span style="font-weight: 900!important; text-shadow: 1px 1px rgba(0,0,0,0.8);">
+                      <span class="wrap" style="border-right: 4px solid black; padding-right: 10px;">Software Developer</span>
+                      <span class="wrap" style="border-right: 4px solid black; padding-right: 10px;">CFD-AI Researcher</span>
+                      <span class="wrap" style="border-right: 4px solid black; padding-right: 10px;">Astronomy Geek</span>
+                      <span class="wrap" style="padding-right: 10px;">Hobby Poet</span>
+                    </span>
                   </span>
-                </span>
-              </div>
+                </div>
 
-              <div class="desc">
-                    <p>
-                      I am a firm believer of the saying that <span style="font-weight: bold;">A man Never stops learning</span>.
-                      It has always been my aim to grasp as much knowledge around me as possible, be it Engineering, Technologies, Astronomy, Politics or Bussiness Strategies and Economics.
-                      Sooner have I realised that knowledge isn't power in itself but how you use it. It has been my goal to formulate and architect solutions with greater impact in the current lines of work
-                      in the fields of Artificial Intelligence (AI), Computational Fluid Dynamics (CFD), Robotics and Software Development.
+                <div class="desc">
+                      <p>
+                        I am a firm believer of the saying that <span style="font-weight: bold;">A man Never stops learning</span>.
+                        It has always been my aim to grasp as much knowledge around me as possible, be it Engineering, Technologies, Astronomy, Politics or Bussiness Strategies and Economics.
+                        Sooner have I realised that knowledge isn't power in itself but how you use it. It has been my goal to formulate and architect solutions with greater impact in the current lines of work
+                        in the fields of Artificial Intelligence (AI), Computational Fluid Dynamics (CFD), Robotics and Software Development.
+                      </p>
+                  </div>
+            </div>
+          </div>
+
+          <div class="credentials">
+            <div class="personal">
+              <p><span class="bold">Date of birth: </span> 17th March 1998</p>
+              <p><span class="bold">Phone number: </span> (+91) 7478006888</p>
+              <p><span class="bold">Email: </span> ritvik.pandey03@gmail.com</p>
+              <p><span class="bold">City: </span> Bhopal | Bangalore </p>
+              <p style="margin-bottom: 20px;"><span class="bold">Freelance: </span> Available</p>
+              <div class="resume_btn">
+                <a href="resume.pdf" target="_blank" download>Resume</a>
+              </div>
+            </div>
+
+            <div class="skills">
+              <p><span class="bold">Languages: </span> C++, Python, SQL, R</p>
+              <p><span class="bold">Development: </span> HTML5, CSS3, JS, PHP, Android Studio</p>
+              <p><span class="bold">Machine Learning: </span> Tensorflow, Keras, Pytorch, Caffe</p>
+              <p><span class="bold">Computational Fluid Dynamics: </span> OpenFoam2.4, Gmesh</p>
+              <p><span class="bold">Robotics: </span> Arduino, RaspberryPi, Beaglebone, ROS, CAN</p>
+            </div>
+
+          </div>
+
+          <div class="edu_exp">
+            <div class="edu">
+              <ul class="timeline card_tile">
+                <h2>Education</h2>
+                <li>
+                  <div class="event">
+                    <p class="date fa-calendar"> August 2016 - Present</p>
+                    <div class="org">
+                      <img src="assets/about/kgp_logo.png"/>
+                      <p class="org_name" style="vertical-align: middle;">Indian Institute of Technology Kharagpur</p>
+                    </div>
+                    <p class="position">Department of Mechanical Engineering <br /><span style="font-weight: 500; font-size: 15px;; background: #eee;">Dual Degree (B.Tech + M.Tech)</p>
+                    <p class="semi_imp"><span style="font-weight: 600;background: #eee;">CGPA: </span>8.24/10</p>
+                    <p class="work_desc">
+                      <!-- <span style="font-weight: 600;background: #eee;">Software Team Member: </span> Autonomous Ground Vehicle (AGV)<br /> -->
+                      <span style="font-weight: 600;background: #eee;">Captain: </span>Hardware Modelling Team, Meghnad Saha Hall of Residence<br />
+                      <span style="font-weight: 600;background: #eee;">Events, Web and App Development Head: </span>National Students Space Challenge (NSSC)<br />
+                      <span style="font-weight: 600;background: #eee;">Technology Head: </span>Space Technology Students Society (spAts)<br />
+                      <span style="font-weight: 600;background: #eee;">Mentor: </span>Student Welfare Group
                     </p>
-                </div>
-          </div>
-        </div>
-
-        <div class="credentials">
-          <div class="personal">
-            <p><span class="bold">Date of birth: </span> 17th March 1998</p>
-            <p><span class="bold">Phone number: </span> (+91) 7478006888</p>
-            <p><span class="bold">Email: </span> ritvik.pandey03@gmail.com</p>
-            <p><span class="bold">City: </span> Bhopal | Bangalore </p>
-            <p style="margin-bottom: 20px;"><span class="bold">Freelance: </span> Available</p>
-            <div class="resume_btn">
-              <a href="resume.pdf" target="_blank" download>Resume</a>
-            </div>
-          </div>
-
-          <div class="skills">
-            <p><span class="bold">Languages: </span> C++, Python, SQL, R</p>
-            <p><span class="bold">Development: </span> HTML5, CSS3, JS, PHP, Android Studio</p>
-            <p><span class="bold">Machine Learning: </span> Tensorflow, Keras, Pytorch, Caffe</p>
-            <p><span class="bold">Computational Fluid Dynamics: </span> OpenFoam2.4, Gmesh</p>
-            <p><span class="bold">Robotics: </span> Arduino, RaspberryPi, Beaglebone, ROS, CAN</p>
-          </div>
-
-        </div>
-
-        <div class="edu_exp">
-          <div class="edu">
-            <ul class="timeline card_tile">
-              <h2>Education</h2>
-              <li>
-                <div class="event">
-                  <p class="date fa-calendar"> August 2016 - Present</p>
-                  <div class="org">
-                    <img src="assets/about/kgp_logo.png"/>
-                    <p class="org_name" style="vertical-align: middle;">Indian Institute of Technology Kharagpur</p>
                   </div>
-                  <p class="position">Department of Mechanical Engineering <br /><span style="font-weight: 500; font-size: 15px;; background: #eee;">Dual Degree (B.Tech + M.Tech)</p>
-                  <p class="semi_imp"><span style="font-weight: 600;background: #eee;">CGPA: </span>8.24/10</p>
-                  <p class="work_desc">
-                    <!-- <span style="font-weight: 600;background: #eee;">Software Team Member: </span> Autonomous Ground Vehicle (AGV)<br /> -->
-                    <span style="font-weight: 600;background: #eee;">Captain: </span>Hardware Modelling Team, Meghnad Saha Hall of Residence<br />
-                    <span style="font-weight: 600;background: #eee;">Events, Web and App Development Head: </span>National Students Space Challenge (NSSC)<br />
-                    <span style="font-weight: 600;background: #eee;">Technology Head: </span>Space Technology Students Society (spAts)<br />
-                    <span style="font-weight: 600;background: #eee;">Mentor: </span>Student Welfare Group
+                </li>
+
+                <li>
+                  <div class="event">
+                    <p class="date fa-calendar"> August 2014 - March 2016</p>
+                    <div class="org">
+                      <img src="assets/about/ggia.png"/>
+                      <p class="org_name" style="vertical-align: middle;">Gyan Ganga International Academy</p>
+                    </div>
+                    <p class="position">Senior Seconday School <br /><span style="font-weight: 500; font-size: 15px; background: #eee;">Science with Maths and Physical Education</p>
+                    <p class="semi_imp"><span style="font-weight: 600;background: #eee;">Percentage: </span>88.9</p>
+                    <p class="work_desc">
+                      <span style="font-weight: 600;background: #eee;">Captain: </span> School Football Team<br />
+                      <span style="font-weight: 600;background: #eee;">Head: </span>Astronomy Club
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="event">
+                    <p class="date fa-calendar"> August 2003 - March 2014</p>
+                    <div class="org">
+                      <img src="assets/about/jns.png"/>
+                      <p class="org_name" style="vertical-align: middle;">Jawaharlal Nehru School</p>
+                    </div>
+                    <p class="position">High School <br /><span style="font-weight: 500; font-size: 15px;; background: #eee;">Language: English, Hindi, Sanskrit</p>
+                    <p class="semi_imp"><span style="font-weight: 600;background: #eee;">CGPA: </span>9.8/10</p>
+                    <p class="work_desc">
+                      <span style="font-weight: 600;background: #eee;">Head: </span> Aryabhat Astronomy Olympiad Group<br />
+                      <span style="font-weight: 600;background: #eee;">Senior member: </span>Hindi Literary Club<br />
+                      <span style="font-weight: 600;background: #eee;">Member: </span>Football, Hockey and Athletics teams<br />
+                      <span style="font-weight: 600;background: #eee;">Mentor: </span>Technology Innovation Centre
+                    </p>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="exp">
+
+              <ul class="timeline card_tile">
+                <h2>Experience</h2>
+                <li>
+                  <div class="event">
+                    <p class="date fa-calendar"> June 2020 - July 2020</p>
+                    <div class="org">
+                      <img src="assets/about/honeywell_logo.png"/>
+                      <p class="org_name" style="vertical-align: middle;">Honeywell India</p>
+                    </div>
+                    <p class="position">Systems and Control Engineer <br /><span style="font-weight: 500; font-size: 15px;; background: #eee;">Bangalore, India</p>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="event">
+                    <p class="date fa-calendar"> May 2019 - July 2019</p>
+                    <div class="org">
+                      <img src="assets/about/c5i.png"/>
+                      <p class="org_name" style="vertical-align: middle;">Course5 Intelligence</p>
+                    </div>
+                    <p class="position">Deep Learning and Vision Intern <br /><span style="font-weight: 500; font-size: 15px; background: #eee;">Bangalore, India</p>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="event">
+                    <p class="date fa-calendar"> December 2017 - June 2018</p>
+                    <div class="org">
+                      <img src="assets/about/agv.png" style="width: 100px;"/>
+                      <p class="org_name" style="vertical-align: middle;">Autonomous Ground Vehicle Research Group</p>
+                    </div>
+                    <p class="position">Software Team Member <br /><span style="font-weight: 500; font-size: 15px;; background: #eee;">IIT Kharagpur, India</p>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="event">
+                    <p class="date fa-calendar"> December 2017 - June 2018</p>
+                    <div class="org">
+                      <img src="assets/about/dewinters_logo.png"/>
+                      <p class="org_name" style="vertical-align: middle;">Dewinters Opticals Inc.</p>
+                    </div>
+                    <p class="position">Computer Vision Intern <br /><span style="font-weight: 500; font-size: 15px;; background: #eee;">New Delhi, India</p>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div id="Projects" class="city w3-animate-left projects" style="display:none">
+          <div class="page_title">Projects</div>
+
+          <div class="project_grid">
+
+            <!--
+
+            <a href="#" class="project_tile">
+              <img src="assets/home/profile-pic.jpg" class="image"/>
+              <div class="overlay">
+                <div class="project_desc">
+                  <h2>Ritvik Pandey</h2>
+                  <p>something something something</p>
+                  <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
+                </div>
+              </div>
+            </a>
+
+            -->
+
+            <a href="https://github.com/ritvik03/Hybrid_Navigation_Tech" class="project_tile">
+              <img src="assets/projects/hybrid_nav.jpg" class="image"/>
+              <div class="overlay">
+                <div class="project_desc">
+                  <h2>Hybrid Navigation Tech</h2>
+                  <p>Developed a hybrid navigation technology for indoor/outdoor use for delivery and mapping using sensor flexible SLAM implemented over AirSim simulation</p>
+                  <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://github.com/ritvik03/Planogram-Detection" class="project_tile">
+              <img src="assets/projects/planogram.jpg" class="image"/>
+              <div class="overlay">
+                <div class="project_desc">
+                  <h2>Planogram Detection</h2>
+                  <p>The problem of manual counting and shelf keeping in large and small warehouses/ store-shelves is solved using Computer Vision for monitoring, localizing system and stock accounting</p>
+                  <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://github.com/ritvik03/DeepFoil" class="project_tile">
+              <img src="assets/projects/flow.png" class="image"/>
+              <div class="overlay">
+                <div class="project_desc">
+                  <h2>AI - CFD</h2>
+                  <p>
+                    Computational Fluid Dynamics is a resource intensive solution to Fluid Dynamics problems while also generating enormous amounts of data.
+                    This amount of data could come handy at training Machine Learning models to either speed up or converge at approximate solutions quicker.
                   </p>
+                  <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
                 </div>
-              </li>
+              </div>
+            </a>
 
-              <li>
-                <div class="event">
-                  <p class="date fa-calendar"> August 2014 - March 2016</p>
-                  <div class="org">
-                    <img src="assets/about/ggia.png"/>
-                    <p class="org_name" style="vertical-align: middle;">Gyan Ganga International Academy</p>
-                  </div>
-                  <p class="position">Senior Seconday School <br /><span style="font-weight: 500; font-size: 15px; background: #eee;">Science with Maths and Physical Education</p>
-                  <p class="semi_imp"><span style="font-weight: 600;background: #eee;">Percentage: </span>88.9</p>
-                  <p class="work_desc">
-                    <span style="font-weight: 600;background: #eee;">Captain: </span> School Football Team<br />
-                    <span style="font-weight: 600;background: #eee;">Head: </span>Astronomy Club
+            <a href="https://github.com/ritvik03/DermaMentors" class="project_tile">
+              <img src="assets/projects/skin.png" class="image"/>
+              <div class="overlay">
+                <div class="project_desc">
+                  <h2>DermaMentors: AI based skin prognosis</h2>
+                  <p>Early skin disease detection is one of the most crucial and ignored aspect in majority of developing countries.
+                    This could be solved by using medical data to train Convolution Neural Network (CNN) followed by a business plan to acquire more data and expanding the existing userbase while still keeping the startup profitable</p>
+                  <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://github.com/ritvik03/Sales-Beat-Plan" class="project_tile">
+              <img src="assets/projects/route.jpg" class="image"/>
+              <div class="overlay">
+                <div class="project_desc">
+                  <h2>Sales Beat Plan</h2>
+                  <p>
+                    Any door-to-door delivery service have several contraints like maximum distance travelled, time taken, minimum revenue of the day and also has some optimization parameters like total profit, fuel prices. It is often not beneficial to cover all locations.
+                    This project aims to solve multi-route multi-vehicle optimization problem using genetic algorithm and geo-location based clustering.
                   </p>
+                  <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
                 </div>
-              </li>
+              </div>
+            </a>
 
-              <li>
-                <div class="event">
-                  <p class="date fa-calendar"> August 2003 - March 2014</p>
-                  <div class="org">
-                    <img src="assets/about/jns.png"/>
-                    <p class="org_name" style="vertical-align: middle;">Jawaharlal Nehru School</p>
-                  </div>
-                  <p class="position">High School <br /><span style="font-weight: 500; font-size: 15px;; background: #eee;">Language: English, Hindi, Sanskrit</p>
-                  <p class="semi_imp"><span style="font-weight: 600;background: #eee;">CGPA: </span>9.8/10</p>
-                  <p class="work_desc">
-                    <span style="font-weight: 600;background: #eee;">Head: </span> Aryabhat Astronomy Olympiad Group<br />
-                    <span style="font-weight: 600;background: #eee;">Senior member: </span>Hindi Literary Club<br />
-                    <span style="font-weight: 600;background: #eee;">Member: </span>Football, Hockey and Athletics teams<br />
-                    <span style="font-weight: 600;background: #eee;">Mentor: </span>Technology Innovation Centre
+            <a href="https://github.com/ritvik03/3D-Reconstruction" class="project_tile">
+              <img src="assets/projects/depth_map.jpg" class="image"/>
+              <div class="overlay">
+                <div class="project_desc">
+                  <h2>3D Reconstruction | Stereovision</h2>
+                  <p>
+                    Current stereovision tech to be as good in recreating the 3D point-cloud as any LIDAR sensor. This has also been stated by Elon Musk on being asked why Tesla card don't rely on LIDAR sensors.
+                    This projects aimed at implementing the idea of obtaining 3D point cloud of surrounding using stereovision using computer vision libraries
                   </p>
+                  <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
                 </div>
-              </li>
+              </div>
+            </a>
 
-            </ul>
-
-          </div>
-
-          <div class="exp">
-
-            <ul class="timeline card_tile">
-              <h2>Experience</h2>
-              <li>
-                <div class="event">
-                  <p class="date fa-calendar"> June 2020 - July 2020</p>
-                  <div class="org">
-                    <img src="assets/about/honeywell_logo.png"/>
-                    <p class="org_name" style="vertical-align: middle;">Honeywell India</p>
-                  </div>
-                  <p class="position">Systems and Control Engineer <br /><span style="font-weight: 500; font-size: 15px;; background: #eee;">Bangalore, India</p>
+            <a href="https://github.com/ritvik03/AbInBev-Mavrick" class="project_tile">
+              <img src="assets/projects/beer.jpg" class="image"/>
+              <div class="overlay">
+                <div class="project_desc">
+                  <h2>Beer Detection</h2>
+                  <p>
+                    Beer bottles and can counting and detection pipeline for AbInBev Maverick Challenge.
+                    Yolov3 is used for Beer Bottle detection and Content Based Image Retrieval is used to maintain the count.
+                  </p>
+                  <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
                 </div>
-              </li>
+              </div>
+            </a>
 
-              <li>
-                <div class="event">
-                  <p class="date fa-calendar"> May 2019 - July 2019</p>
-                  <div class="org">
-                    <img src="assets/about/c5i.png"/>
-                    <p class="org_name" style="vertical-align: middle;">Course5 Intelligence</p>
-                  </div>
-                  <p class="position">Deep Learning and Vision Intern <br /><span style="font-weight: 500; font-size: 15px; background: #eee;">Bangalore, India</p>
+            <a href="https://github.com/ritvik03/hEleven" class="project_tile">
+              <img src="assets/projects/heleven.png" class="image"/>
+              <div class="overlay">
+                <div class="project_desc">
+                  <h2>hEleven</h2>
+                  <p>
+                    Intelligent android time scheduling app based on min-max algorithm to optimise the output given instantaneous progress and task weightage. This app is aimed for 11th hour achievers who want to maximize their productivity in least amount of time.
+                    The app gives priority wise daily schedule of target task completion and the maximum time to be alloted to each task. All in all, the aim is to ramp up the productivity even if all tasks could not be completed
+                  </p>
+                  <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
                 </div>
-              </li>
+              </div>
+            </a>
 
-              <li>
-                <div class="event">
-                  <p class="date fa-calendar"> December 2017 - June 2018</p>
-                  <div class="org">
-                    <img src="assets/about/agv.png" style="width: 100px;"/>
-                    <p class="org_name" style="vertical-align: middle;">Autonomous Ground Vehicle Research Group</p>
-                  </div>
-                  <p class="position">Software Team Member <br /><span style="font-weight: 500; font-size: 15px;; background: #eee;">IIT Kharagpur, India</p>
+            <a href="https://github.com/ritvik03/Baby-I-am-A-Fighterfighter" class="project_tile">
+              <img src="assets/projects/firefighter.jpg" class="image"/>
+              <div class="overlay">
+                <div class="project_desc">
+                  <h2>Baby I'm a Firefighter</h2>
+                  <p>PyGame based 2D firefighter game with customizable maps to to test and train preparedness towards any fire hazard in known spaces</p>
+                  <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
                 </div>
-              </li>
+              </div>
+            </a>
 
-              <li>
-                <div class="event">
-                  <p class="date fa-calendar"> December 2017 - June 2018</p>
-                  <div class="org">
-                    <img src="assets/about/dewinters_logo.png"/>
-                    <p class="org_name" style="vertical-align: middle;">Dewinters Opticals Inc.</p>
-                  </div>
-                  <p class="position">Computer Vision Intern <br /><span style="font-weight: 500; font-size: 15px;; background: #eee;">New Delhi, India</p>
+            <a href="https://github.com/ritvik03/Active-Learning" class="project_tile">
+              <img src="assets/projects/active_learn.jpg" class="image"/>
+              <div class="overlay">
+                <div class="project_desc">
+                  <h2>Active Learning for Object Detection</h2>
+                  <p>Active Learning reduces the manual labour of labelling the all of data by selectively chosing a small subset of most diverse data to be labelled relying on self evaluation metrics. This helps in achieving close to fully labelled accuracies with as less as half of total data labelled</p>
+                  <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
                 </div>
-              </li>
-
-            </ul>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <div id="Projects" class="city w3-animate-left projects" style="display:none">
-        <div class="page_title">Projects</div>
-
-        <div class="project_grid">
-
-          <!--
-
-          <a href="#" class="project_tile">
-            <img src="assets/home/profile-pic.jpg" class="image"/>
-            <div class="overlay">
-              <div class="project_desc">
-                <h2>Ritvik Pandey</h2>
-                <p>something something something</p>
-                <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
               </div>
-            </div>
-          </a>
+            </a>
 
-          -->
-
-          <a href="https://github.com/ritvik03/Hybrid_Navigation_Tech" class="project_tile">
-            <img src="assets/projects/hybrid_nav.jpg" class="image"/>
-            <div class="overlay">
-              <div class="project_desc">
-                <h2>Hybrid Navigation Tech</h2>
-                <p>Developed a hybrid navigation technology for indoor/outdoor use for delivery and mapping using sensor flexible SLAM implemented over AirSim simulation</p>
-                <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
+            <a href="https://github.com/ritvik03/Image-Stitching" class="project_tile">
+              <img src="assets/projects/pano.jpg" class="image"/>
+              <div class="overlay">
+                <div class="project_desc">
+                  <h2>Image Stitcher</h2>
+                  <p>Digital Image Stitching project to empass the details of multiple zoomed image and the overview presented by their aggregate larger image for microscopic usage. Same codebase also serves the planar panaromic stitcher for camera applications</p>
+                  <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
 
-          <a href="https://github.com/ritvik03/Planogram-Detection" class="project_tile">
-            <img src="assets/projects/planogram.jpg" class="image"/>
-            <div class="overlay">
-              <div class="project_desc">
-                <h2>Planogram Detection</h2>
-                <p>The problem of manual counting and shelf keeping in large and small warehouses/ store-shelves is solved using Computer Vision for monitoring, localizing system and stock accounting</p>
-                <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
+            <a href="https://github.com/ritvik03/Age-Gender_Prediction" class="project_tile">
+              <img src="assets/projects/modiji.jpg" class="image"/>
+              <div class="overlay">
+                <div class="project_desc">
+                  <h2>Age-Gender Classifier</h2>
+                  <p>Deep Convolution Neural Network based age and gender classifer from facial images trained over IMDB-Wiki and indian image datasets over Caffe framework</p>
+                  <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
 
-          <a href="https://github.com/ritvik03/DeepFoil" class="project_tile">
-            <img src="assets/projects/flow.png" class="image"/>
-            <div class="overlay">
-              <div class="project_desc">
-                <h2>AI - CFD</h2>
-                <p>
-                  Computational Fluid Dynamics is a resource intensive solution to Fluid Dynamics problems while also generating enormous amounts of data.
-                  This amount of data could come handy at training Machine Learning models to either speed up or converge at approximate solutions quicker.
-                </p>
-                <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
+            <a href="https://github.com/ritvik03/Bridge-Detection" class="project_tile">
+              <img src="assets/projects/bridge.jpg" class="image"/>
+              <div class="overlay">
+                <div class="project_desc">
+                  <h2>Bridge detection</h2>
+                  <p>Algorithm for bridge and watershed detection from SAR Satellite Imaging to design early warning system for flood and tsumani catchment area for coastal and basin areas</p>
+                  <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
 
-          <a href="https://github.com/ritvik03/DermaMentors" class="project_tile">
-            <img src="assets/projects/skin.png" class="image"/>
-            <div class="overlay">
-              <div class="project_desc">
-                <h2>DermaMentors: AI based skin prognosis</h2>
-                <p>Early skin disease detection is one of the most crucial and ignored aspect in majority of developing countries.
-                  This could be solved by using medical data to train Convolution Neural Network (CNN) followed by a business plan to acquire more data and expanding the existing userbase while still keeping the startup profitable</p>
-                <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
+            <a href="https://github.com/ritvik03/Motion-Tracking" class="project_tile">
+              <img src="assets/projects/sperm.jpg" class="image"/>
+              <div class="overlay">
+                <div class="project_desc">
+                  <h2>Sperm Motality Inspection</h2>
+                  <p>Computer Vision based microscopic video analysis tool to inspect sperm health and motality for IVF treatment. It uses OpenCV's motion tracker module and cluster detection algorithm to rate sample on metric of motality</p>
+                  <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
+                </div>
               </div>
-            </div>
-          </a>
-
-          <a href="https://github.com/ritvik03/Sales-Beat-Plan" class="project_tile">
-            <img src="assets/projects/route.jpg" class="image"/>
-            <div class="overlay">
-              <div class="project_desc">
-                <h2>Sales Beat Plan</h2>
-                <p>
-                  Any door-to-door delivery service have several contraints like maximum distance travelled, time taken, minimum revenue of the day and also has some optimization parameters like total profit, fuel prices. It is often not beneficial to cover all locations.
-                  This project aims to solve multi-route multi-vehicle optimization problem using genetic algorithm and geo-location based clustering.
-                </p>
-                <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
-              </div>
-            </div>
-          </a>
-
-          <a href="https://github.com/ritvik03/3D-Reconstruction" class="project_tile">
-            <img src="assets/projects/depth_map.jpg" class="image"/>
-            <div class="overlay">
-              <div class="project_desc">
-                <h2>3D Reconstruction | Stereovision</h2>
-                <p>
-                  Current stereovision tech to be as good in recreating the 3D point-cloud as any LIDAR sensor. This has also been stated by Elon Musk on being asked why Tesla card don't rely on LIDAR sensors.
-                  This projects aimed at implementing the idea of obtaining 3D point cloud of surrounding using stereovision using computer vision libraries
-                </p>
-                <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
-              </div>
-            </div>
-          </a>
-
-          <a href="https://github.com/ritvik03/AbInBev-Mavrick" class="project_tile">
-            <img src="assets/projects/beer.jpg" class="image"/>
-            <div class="overlay">
-              <div class="project_desc">
-                <h2>Beer Detection</h2>
-                <p>
-                  Beer bottles and can counting and detection pipeline for AbInBev Maverick Challenge.
-                  Yolov3 is used for Beer Bottle detection and Content Based Image Retrieval is used to maintain the count.
-                </p>
-                <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
-              </div>
-            </div>
-          </a>
-
-          <a href="https://github.com/ritvik03/hEleven" class="project_tile">
-            <img src="assets/projects/heleven.png" class="image"/>
-            <div class="overlay">
-              <div class="project_desc">
-                <h2>hEleven</h2>
-                <p>
-                  Intelligent android time scheduling app based on min-max algorithm to optimise the output given instantaneous progress and task weightage. This app is aimed for 11th hour achievers who want to maximize their productivity in least amount of time.
-                  The app gives priority wise daily schedule of target task completion and the maximum time to be alloted to each task. All in all, the aim is to ramp up the productivity even if all tasks could not be completed
-                </p>
-                <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
-              </div>
-            </div>
-          </a>
-
-          <a href="https://github.com/ritvik03/Baby-I-am-A-Fighterfighter" class="project_tile">
-            <img src="assets/projects/firefighter.jpg" class="image"/>
-            <div class="overlay">
-              <div class="project_desc">
-                <h2>Baby I'm a Firefighter</h2>
-                <p>PyGame based 2D firefighter game with customizable maps to to test and train preparedness towards any fire hazard in known spaces</p>
-                <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
-              </div>
-            </div>
-          </a>
-
-          <a href="https://github.com/ritvik03/Active-Learning" class="project_tile">
-            <img src="assets/projects/active_learn.jpg" class="image"/>
-            <div class="overlay">
-              <div class="project_desc">
-                <h2>Active Learning for Object Detection</h2>
-                <p>Active Learning reduces the manual labour of labelling the all of data by selectively chosing a small subset of most diverse data to be labelled relying on self evaluation metrics. This helps in achieving close to fully labelled accuracies with as less as half of total data labelled</p>
-                <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
-              </div>
-            </div>
-          </a>
-
-          <a href="https://github.com/ritvik03/Image-Stitching" class="project_tile">
-            <img src="assets/projects/pano.jpg" class="image"/>
-            <div class="overlay">
-              <div class="project_desc">
-                <h2>Image Stitcher</h2>
-                <p>Digital Image Stitching project to empass the details of multiple zoomed image and the overview presented by their aggregate larger image for microscopic usage. Same codebase also serves the planar panaromic stitcher for camera applications</p>
-                <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
-              </div>
-            </div>
-          </a>
-
-          <a href="https://github.com/ritvik03/Age-Gender_Prediction" class="project_tile">
-            <img src="assets/projects/modiji.jpg" class="image"/>
-            <div class="overlay">
-              <div class="project_desc">
-                <h2>Age-Gender Classifier</h2>
-                <p>Deep Convolution Neural Network based age and gender classifer from facial images trained over IMDB-Wiki and indian image datasets over Caffe framework</p>
-                <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
-              </div>
-            </div>
-          </a>
-
-          <a href="https://github.com/ritvik03/Bridge-Detection" class="project_tile">
-            <img src="assets/projects/bridge.jpg" class="image"/>
-            <div class="overlay">
-              <div class="project_desc">
-                <h2>Bridge detection</h2>
-                <p>Algorithm for bridge and watershed detection from SAR Satellite Imaging to design early warning system for flood and tsumani catchment area for coastal and basin areas</p>
-                <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
-              </div>
-            </div>
-          </a>
-
-          <a href="https://github.com/ritvik03/Motion-Tracking" class="project_tile">
-            <img src="assets/projects/sperm.jpg" class="image"/>
-            <div class="overlay">
-              <div class="project_desc">
-                <h2>Sperm Motality Inspection</h2>
-                <p>Computer Vision based microscopic video analysis tool to inspect sperm health and motality for IVF treatment. It uses OpenCV's motion tracker module and cluster detection algorithm to rate sample on metric of motality</p>
-                <i class="fa fa-github" style="font-size: 16px; display: inline-block; vertical-align: middle; padding: 0;"><span style="background:transparent; padding-left: 5px; font-weight: bold;">Github</span></i>
-              </div>
-            </div>
-          </a>
-
-        </div>
-
-      </div>
-
-      <div id="Blog" class="w3-container city w3-animate-left" style="display:none">
-
-        <div class="page_title">Blog</div>
-
-        <div class="blog_list">
-
-          <div class="blog_item card_tile">
-
-            <!-- <img class="bolg_img" src="assets/R.png"/> -->
-
-            <div class="blog_content">
-
-              <h2 class="blog_title">Title of the blog</h2>
-
-              <p>
-                Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup.
-              </p>
-
-            </div>
-
-          </div>
-
-          <div class="blog_item card_tile">
-
-            <!-- <img class="bolg_img" src="assets/R.png"/> -->
-
-            <div class="blog_content">
-
-              <h2 class="blog_title">Title of the blog</h2>
-
-              <p>
-                Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup.
-              </p>
-
-            </div>
-
-          </div>
-
-          <div class="blog_item card_tile">
-
-            <!-- <img class="bolg_img" src="assets/R.png"/> -->
-
-            <div class="blog_content">
-
-              <h2 class="blog_title">Title of the blog</h2>
-
-              <p>
-                Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup.
-              </p>
-
-            </div>
+            </a>
 
           </div>
 
         </div>
 
-        <div class="thats-all">
-          That's All Folks!
+        <div id="Blog" class="w3-container city w3-animate-left" style="display:none">
+
+          <div class="page_title">Blog</div>
+
+          <div class="blog_list">
+
+            <div class="blog_item card_tile">
+
+              <!-- <img class="bolg_img" src="assets/R.png"/> -->
+
+              <div class="blog_content">
+
+                <h2 class="blog_title">Title of the blog</h2>
+
+                <p>
+                  Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup.
+                </p>
+
+              </div>
+
+            </div>
+
+            <div class="blog_item card_tile">
+
+              <!-- <img class="bolg_img" src="assets/R.png"/> -->
+
+              <div class="blog_content">
+
+                <h2 class="blog_title">Title of the blog</h2>
+
+                <p>
+                  Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup.
+                </p>
+
+              </div>
+
+            </div>
+
+            <div class="blog_item card_tile">
+
+              <!-- <img class="bolg_img" src="assets/R.png"/> -->
+
+              <div class="blog_content">
+
+                <h2 class="blog_title">Title of the blog</h2>
+
+                <p>
+                  Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="thats-all">
+            That's All Folks!
+          </div>
+
         </div>
 
       </div>

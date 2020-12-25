@@ -95,3 +95,16 @@ function openLink_mobile(evt, animName){
   openLink(evt,animName);
   ham_change(document.getElementById("ham_container"));
 }
+
+function showPage() {
+  document.getElementById("loader_id").style.display = "none";
+  document.getElementById("everything_id").style.display = "block";
+}
+
+function preloadtimer() {
+  document.getElementById("everything_id").style.display = "none";
+  myVar = setTimeout(showPage, 3000);
+  // window.alert("called");
+}
+
+preloadtimer();
