@@ -103,7 +103,7 @@ function showPage() {
 
 function preloadtimer() {
   document.getElementById("everything_id").style.display = "none";
-  myVar = setTimeout(showPage, 0000);
+  myVar = setTimeout(showPage, 3000);
   // window.alert("called");
 }
 
