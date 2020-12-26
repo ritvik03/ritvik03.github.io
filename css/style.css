@@ -310,7 +310,8 @@ textarea:focus{
 
 .contact_intro_tile{
   /* width: 33%!important; */
-  margin-inline: auto;
+  margin: auto;
+  /* margin-inline: auto; */
   margin-top: 20px;
   padding: 10px;
   /* margin: 10px 0; */
