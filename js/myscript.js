@@ -103,8 +103,16 @@ function showPage() {
 
 function preloadtimer() {
   document.getElementById("everything_id").style.display = "none";
-  myVar = setTimeout(showPage, 3000);
+  myVar = setTimeout(showPage, 0000);
   // window.alert("called");
 }
+
+var textarea = document.getElementById("messagebox");
+var heightLimit = 1000; /* Maximum height: 200px */
+
+textarea.oninput = function() {
+  textarea.style.height = ""; /* Reset the height*/
+  textarea.style.height = Math.min(textarea.scrollHeight, heightLimit) + "px";
+};
 
 preloadtimer();

@@ -12,6 +12,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&family=Tinos&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet"> -->
 
   <body>
 
@@ -31,7 +33,7 @@
       <button id="home_btn_top" class="topbar_btn tablink" onclick="openLink(event, 'Home')"><i class="fa fa-home"></i></button>
       <button class="topbar_btn tablink" onclick="openLink(event, 'About')"><i class="fa fa-user" aria-hidden="true"></i></button>
       <button class="topbar_btn tablink" onclick="openLink(event, 'Projects')"><i class="fa fa-code-fork"></i></button>
-      <button class="topbar_btn tablink" onclick="openLink(event, 'Blog')"><i class="fa fa-rss"></i></button>
+      <button class="topbar_btn tablink" onclick="openLink(event, 'contact')"><i class="fa fa-rss"></i></button>
     </div> -->
 
     <div id="loader_id" class="preloader">
@@ -55,7 +57,7 @@
           <button id="mobile-btn-home" class="mobmenubtn tablink homebtn" onclick="openLink_mobile(event, 'Home')">Home</button>
           <button id="mobile-btn-about" class="mobmenubtn tablink abtbtn" onclick="openLink_mobile(event, 'About')">About</button>
           <button id="mobile-btn-projects" class="mobmenubtn tablink projectbtn" onclick="openLink_mobile(event, 'Projects')">Projects</button>
-          <button id="mobile-btn-blog" class="mobmenubtn tablink blogbtn" onclick="openLink_mobile(event, 'Blog')">Blog</button>
+          <button id="mobile-btn-contact" class="mobmenubtn tablink contactbtn" onclick="openLink_mobile(event, 'Contact')">Contact</button>
         </div>
       </div>
 
@@ -65,16 +67,16 @@
           <button id="home_btn" class="w3-bar-item w3-button sidebar_btn tablink homebtn" onclick="openLink(event, 'Home')"><i class="fa fa-home"></i>Home</button>
           <button id="abt_btn" class="w3-bar-item w3-button sidebar_btn tablink abtbtn" onclick="openLink(event, 'About')"><i class="fa fa-user" aria-hidden="true"></i>About</button>
           <button id="prjt_btn" class="w3-bar-item w3-button sidebar_btn tablink projectbtn" onclick="openLink(event, 'Projects')"><i class="fa fa-code-fork"></i>Projects</button>
-          <button id="blog_btn" class="w3-bar-item w3-button sidebar_btn tablink blogbtn" onclick="openLink(event, 'Blog')"><i class="fa fa-rss"></i>Blog</button>
+          <button id="contact_btn" class="w3-bar-item w3-button sidebar_btn tablink contactbtn" onclick="openLink(event, 'Contact')"><i class="fa fa-phone"></i>Contact</button>
         </div>
       </div>
 
       <div id="tab_id" class="tab">
-        <div id="Home" class="city w3-animate-left home" style="display:none;">
+        <section id="Home" class="city w3-animate-left home" style="display:none;">
           <a href="#" style="text-decoration: None"><img src="assets/home/profile-pic.jpg"/>
             <h2>Ritvik Pandey</h2></a>
-            <h3>Coder | Engineer | Athlete | Poet</h3>
-            <h4>Trying to change the world  with <!--<div style="text-decoration: underline #f44336; display: inline">-->Creative thinking and Code.<!--</div>--></h4>
+            <!-- <h3>Coder | Engineer | Athlete | Poet</h3> -->
+            <h4>Changing the world  with <!--<div style="text-decoration: underline #f44336; display: inline">-->creative thinking and code.<!--</div>--></h4>
             <div class="socials">
               <a href="https://www.facebook.com/ritvik.pandey.03"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
               <a href="https://www.linkedin.com/in/ritvik-pandey-03/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
@@ -82,9 +84,9 @@
               <a href="mailto://ritvik.pandey03@gmail.com" background="#fff" color="000"><i class="fa fa-envelope" aria-hidden="true"></i></a>
               <a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             </div>
-          </div>
+          </section>
 
-        <div id="About" class="city w3-animate-left about" style="display:none">
+        <section id="About" class="city w3-animate-left about" style="display:none">
           <div class="page_title">About Me</div>
 
           <div class="main_cover">
@@ -260,10 +262,10 @@
 
           </div>
 
-        </div>
+        </section>
 
-        <div id="Projects" class="city w3-animate-left projects" style="display:none">
-          <div class="page_title">Projects</div>
+        <section id="Projects" class="city w3-animate-left projects" style="display:none">
+          <div class="page_title">My Projects</div>
 
           <div class="project_grid">
 
@@ -454,69 +456,47 @@
 
           </div>
 
-        </div>
+        </section>
 
-        <div id="Blog" class="w3-container city w3-animate-left" style="display:none">
+        <section id="Contact" class="w3-container city w3-animate-left" style="display:none">
 
-          <div class="page_title">Blog</div>
+          <div class="page_title">Contact Me</div>
 
-          <div class="blog_list">
+          <div class="contact_intro">
 
-            <div class="blog_item card_tile">
-
-              <!-- <img class="bolg_img" src="assets/R.png"/> -->
-
-              <div class="blog_content">
-
-                <h2 class="blog_title">Title of the blog</h2>
-
-                <p>
-                  Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup.
-                </p>
-
-              </div>
-
+            <div class="contact_intro_tile">
+              <img src="assets/contact/mobile.svg"></img>
+              <p>Call me on</p>
+              <p class="value">7478006888</p>
             </div>
 
-            <div class="blog_item card_tile">
-
-              <!-- <img class="bolg_img" src="assets/R.png"/> -->
-
-              <div class="blog_content">
-
-                <h2 class="blog_title">Title of the blog</h2>
-
-                <p>
-                  Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup.
-                </p>
-
-              </div>
-
-            </div>
-
-            <div class="blog_item card_tile">
-
-              <!-- <img class="bolg_img" src="assets/R.png"/> -->
-
-              <div class="blog_content">
-
-                <h2 class="blog_title">Title of the blog</h2>
-
-                <p>
-                  Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup. Hey there buddy ssup.
-                </p>
-
-              </div>
-
+            <div class="contact_intro_tile">
+              <img src="assets/contact/mail.svg"></img>
+              <p>Write to me</p>
+              <p class="value">ritvik.pandey03@gmail.com</p>
             </div>
 
           </div>
 
-          <div class="thats-all">
+          <form class="form_layout" action="https://formspree.io/f/xvovvqyv" method="POST">
+            <!-- <form class="form_layout card_tile" action="https://formspree.io/ritvik.pandey03@gmail.com" method="POST"> -->
+            <h1>Send a message</h1>
+            <div class="first_form">
+              <input type="text" name="name" placeholder="*Name" style="margin-right: auto;">
+              <input type="email" name="_replyto" placeholder="*Email">
+            </div>
+            <div class="second_form">
+              <textarea id="messagebox" name="message" placeholder="*Message"></textarea>
+            </div>
+            <!-- your other form fields go here -->
+            <button class="resume_btn" style="width: 100px; font-weight: 1000; margin: 5px 10px; margin-bottom: 20px;" type="submit">Send</button>
+          </form>
+
+          <!-- <div class="thats-all">
             That's All Folks!
-          </div>
+          </div> -->
 
-        </div>
+        </section>
 
       </div>
 
