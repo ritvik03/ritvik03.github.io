@@ -83,11 +83,15 @@ function ham_change(x) {
   x.classList.toggle("change");
   // window.alert(x.className);
   var display_status = document.getElementById('mobile-menu').style.display;
-  if(display_status=="block"){
-    document.getElementById('mobile-menu').style.display = "none";
+  var margin_status = document.getElementById('mobile-menu').style.marginLeft;
+
+  if(display_status=="block"||margin_status=="20px"){
+    // document.getElementById('mobile-menu').style.display = "none";
+    document.getElementById('mobile-menu').style.marginLeft = "105%";
   }
   else{
-    document.getElementById('mobile-menu').style.display = "block";
+    // document.getElementById('mobile-menu').style.display = "block";
+    document.getElementById('mobile-menu').style.marginLeft = "20px";
   }
 }
 
