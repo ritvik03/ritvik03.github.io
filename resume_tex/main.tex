@@ -1,0 +1,357 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Ritvik Pandey} \\ \vspace{1pt}
+    \small +91-7478006888 $|$ \href{mailto:ritvik.pandey03@gmail.com}{\underline{ritvik.pandey03@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/ritvik-pandey-03/}{\underline{LinkedIn}} $|$
+    \href{https://github.com/ritvik03}{\underline{Github}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Technology, Kharagpur}{8.01/10}
+      {Dual Degree in Mechanical Engineering, specialization in System Design}{Aug. 2016 -- May 2021}
+    \resumeSubheading
+      {Gyan Ganga International Academy}{88.9/100}
+      {Senior School, Central Board of Secondary Education (CBSE)}{Aug. 2014 -- May 2016}
+    \resumeSubheading
+      {Jawaharlal Nehru School}{9.8/10}
+      {High School, Central Board of Secondary Education (CBSE)}{Aug. 2012 -- May 2014}
+  \resumeSubHeadingListEnd
+
+
+
+%-----------Academic Achievements-----------
+\section{Academic Achievement}
+    % \resumeSubHeadingListStart
+    %   \resumeProjectHeading
+          %{\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
+          \resumeItemListStart
+            \resumeItem{Scored top 1 percentile marks in Madhya Pradesh in National Standard Examination in Physics \textbf{(NSEP)} 2016}
+            \resumeItem{Qualified Kishore Vaigyanik Protsahan Yojana \textbf{(KVPY)} for two consecutive years (2014-15) with best \textbf{AIR 305}}
+            \resumeItem{Achieved \textbf{1st Position} in Madhya Pradesh among 70,000 students in National Student's Talent Search Examination}
+            \resumeItem{Cleared Regional Mathematics Olympiad \textbf{(RMO)} to qualify for Indian National Mathematics Olympiad \textbf{(INMO)}}
+          \resumeItemListEnd
+
+
+\section{Competitions}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{MapMyIndia Challenge} $|$ \emph{Ksitij Techical Fest, IIT Kharagpur} $|$ \emph{\textbf{Winner}}}{January 2020}
+          \resumeItemListStart
+            \resumeItem{Developed sales plan by solving multiple vehicle routing problem under constraints using \textbf{Genetic Algorithm}}
+            \resumeItem{Performed geo-location based \textbf{DBScan} clustering and applied \textbf{Silhouette method} for minimizing region overlap}
+            % \resumeItem{Filtered}
+            % \resumeItem{Used Celery and Redis for asynchronous tasks}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Digital Healthcare Design Competition} $|$ \emph{Johns Hopkings University, USA} $|$ \textbf{\emph{Finalists}}}{April 2020}
+          \resumeItemListStart
+            \resumeItem{Developed an AI-based android app trained over medical images to prognose \textbf{30+} types of skin diseases}
+            \resumeItem{Constructed a sustainable business model through comprehensive Competitive and \textbf{Porter's 5 Forces} Analysis}
+            % \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
+            % \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Control Systems Engineering Intern}{June 2020 -- July 2020}
+      {Honeywell Technology Solutions $|$ Bangalore, India}{}
+      \resumeItemListStart
+        \resumeItem{Worked on alternate navigation technologies \textbf{(SLAM)} to augment and overcome inefficiencies of GPS systems}
+        \resumeItem{Implemented \textbf{Graph Optimization} to achieve Drift and Euler errors of less than \textbf{4.2\%} and \textbf{1\%} respectively}
+        \resumeItem{Built and integrated trajectory API using SITL over ROS and tested with AirSim simulator to obtain \textbf{7.6\%} RMSE}
+        \resumeItem{Incorporated flexibility for wide variety of sensor arrangements, primarily tested over Visual and Inertial Sensors}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Artificial Intelligence Research Intern}{May. 2019 -- July 2019}
+      {Course5 Intelligence $|$ Bangalore, India}{}
+      \resumeItemListStart
+        \resumeItem{Implemented \textbf{Active Learning} to reduce the labelling cost for Single Shot Detection models like RetinaNet}
+        \resumeItem{Devised a segmentation map based evaluation metric to selectively label most diverse underperforming data points}
+        \resumeItem{Achieved a margin of \textbf{3\%} error with respect to fully labelled accuracy while using only \textbf{60\%} of total data}
+        \resumeItem{Applied the classification and segmentation metric over Imagenet dataset to save \textbf{9000+} man hours in labeling}
+    \resumeItemListEnd
+    
+    
+    \resumeSubheading
+      {Mechatronics Lead}{Dec 2017 -- June 2018}
+      {Autonomous Ground Vehicle Project (AGV) $|$ IIT Kharagpur, India}{}
+      \resumeItemListStart
+        \resumeItem{Headed Mechatronics team to secure \textbf{2nd} position in International Ground Vehicle Competition \textbf{(IGVC)}}
+        \resumeItem{Enabled autonomous driving mode to electric vehicles using Controller Area Network guided by path-planners}
+        \resumeItem{Led a team of 60 undergraduate student to natively develop autonomous shuttle for in-campus transport}
+        \resumeItem{Supervised mechanical team to get promoted to \textbf{2nd} stage of Mahindra Rise Challenge 2020, winning test vehicle }
+        % \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
+        % \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+      \resumeItemListEnd
+      
+
+    \resumeSubheading
+      {Computer Vision Intern}{Dec 2017 -- June 2018}
+      {DeWinter Opticals Inc $|$ New Delhi, India}{}
+      \resumeItemListStart
+        \resumeItem{Created a real-time planar \textbf{Panorama} software using Scalar Invariant Feature Transformation \textbf{(SIFT)}}
+        \resumeItem{Developed MFC based application for graphite flake classification using AlexNet achieving \textbf{93\%} accuracy}
+        \resumeItem{Designed a motion tracking module using \textbf{ConvLSTM} network to monitor evolution of spacio-temporal features}
+        \resumeItem{Built a weld image analysis tool for inspection of various welding strengths and crack detection for industrial usage}
+        % \resumeItem{Developed a}
+        % \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
+        % \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------Competitions-----------
+\section{Research Projects}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Data-Driven Computation Fluid Dynamics}{March 2018 -- Present}
+      {Prof. Rajaram Lakkaraju $|$ IIT Kharagpur}{}
+      \resumeItemListStart
+        \resumeItem{Applied \textbf{Physics-informed} Deep Neural Network to recreate continuous flow dynamics from scattered data points}
+        \resumeItem{Formulated Navier-Stokes based cost to reduce the discrepancy between predicted and actual simulations to \textbf{6.1\%}}
+        \resumeItem{Modeled active control on attack angle of aerofoil using Reinforcement Learning for \textbf{23\%} reduction in drag forces}
+        \resumeItem{Incorporated flexibility for wide variety of sensor arrangements, primarily tested over Visual and Inertial Sensors}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Rehabilitation Robotics Project}{December 2017 -- August 2018}
+      {Prof. Dilip Kumar Pratihar $|$ IIT Kharagpur}{}
+      \resumeItemListStart
+        \resumeItem{Achieved 3D point-cloud reconstruction using depth perception through stereo-vision for motion and path planning}
+        \resumeItem{Implemented \textbf{PoseNet} to retrieve joint positions for mapping and mimicking the gait cycle using inverse dynamics}
+        \resumeItem{Planned pelvic and knee control cycles for repetition and autonomous movements in walking and stairs climbing}
+        % \resumeItem{Applied the classification and segmentation metric over Imagenet dataset to save \textbf{9000+} man hours in labeling}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+    
+    
+%
+
+%-----------Open Source PROJECTS-----------
+\section{Open-Source Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Planogram Detection} $|$ \emph{Python, Flask, OpenCV, Jupyter, Keras}}{August 2020}
+          \resumeItemListStart
+            \resumeItem{Developed a full-stack web application using with Flask for planogram detection from store shelves and warehouses}
+            \resumeItem{Implemented Siamese One-shot learning to accurately identify similar objects with just one training sample}
+            \resumeItem{It serves as a clustering, count and localization tool for in-store and warehouse databases}
+            % \resumeItem{Used Celery and Redis for asynchronous tasks}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{I am a Firefighter} $|$ \emph{PyGame, Python, C++, Git}}{November 2019}
+          \resumeItemListStart
+            \resumeItem{Worked on creating personalized Virtual Reality game for dealing with fire hazards in familiar places}
+            \resumeItem{Developed a PyGame based adaptive playground for fire-safety and precaution tutorials in custom maps}
+            % \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
+            % \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+          \resumeItemListEnd
+          
+    \resumeProjectHeading
+          {\textbf{hEleven} $|$ \emph{Android Studio, Java, Kotlin, Firebase}}{November 2019}
+          \resumeItemListStart
+            \resumeItem{Created an android task scheduler app for maximizing outputs within constraints for Code-Fun-Do challenge}
+            \resumeItem{Added the functionality of automatic daily task updates and notification and web support with Firebase back-end}
+            % \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
+            % \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+
+
+%
+
+
+%-----------POR (Leadership)-----------
+\section{Positions of Responsibility}
+    \resumeSubHeadingListStart
+      \resumeSubheading
+          {\textbf{Website \& App Development Head} $|$ \textbf{Events co-ordination Head}}{August 2017 -- July 2018}
+          {\emph{National Students' Space Challenge (NSSC 2018)}}{}
+          \resumeItemListStart
+            \resumeItem{Managed and judged robotic events contested by \textbf{3000+} participants in over 600 teams in two annual revisions}
+            \resumeItem{Created information, result and payment portal for \textbf{7000+} participants for online as well as offline registration}
+            \resumeItem{Created message delivery framework through automatic mailing and app notifications to suitable participants}
+          \resumeItemListEnd
+          
+      \resumeSubheading
+          {\textbf{Technology Team Head}}{August 2017 -- July 2018}
+          {\emph{Space Technology Students' Society (spAts)}}{}
+          \resumeItemListStart
+            \resumeItem{Led a team of 60 students for developing IIT KGP's Miniature Satellites (CanSat \& NanoSat) funded by ISRO}
+            \resumeItem{Conducted sky-gazing sessions, space-technology awareness camps (STACs) and seminars in \textbf{34+} institutes}
+            \resumeItem{Conducted in-house telescope handling, robotics and rocket modelling sessions for 10,000+ fresher students}
+          \resumeItemListEnd
+      
+      \resumeSubheading
+          {\textbf{Captain} $|$ \textbf{Hardware Modelling}}{January 2019 --  January 2020}
+          {\emph{Meghnad Saha Hall of Residence} $|$ \emph{IIT Kharagpur}}{}
+          \resumeItemListStart
+            \resumeItem{Headed team of 20 students for developing autonomous crack detection robot for concrete and steel bridges}
+            \resumeItem{Incharge of developing vision and sonar based detection module for regular inspection and monitoring of defects}
+            % \resumeItem{}
+          \resumeItemListEnd
+      
+      
+    \resumeSubHeadingListEnd
+%
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages/OS}{: Python, C/C++, SQL, Java, HTML/CSS, Kotlin, Dart, Ubuntu, Arch Linux, Windows, Android} \\
+     \textbf{Frameworks/Libraries}{: OpenCV, Tensorflow, Keras, pandas, NumPy, SymPy, MatplotLib, Latex, PyTorch, Caffe} \\
+     \textbf{Developer Tools}{: Android Studio, Git, Docker, Google Cloud Platform, Amazon web services, Anaconda, Flutter} \\
+     \textbf{Electronics}{: Arduino, Raspberry Pi, BeagleBone, Jetson, Controller Area Network, Robot Operating System (ROS)}
+    }}
+ \end{itemize}
+\section{Coursework Information}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Department Courses}{: Dynamics, Kinamatics of Machines, Computational Fluid Dynamics, Intelligent Machines and Systems, Knowledge based systems in engineering, Heat transfer, Tranform Calculus, Partial Differential Equations} \\
+     \textbf{Additional Courses}{: Probability and Stochastics, Image Processing, Machine Learning, Deep Learning, Blockchain, Cryptography, Systems and Controls, Programming and Data structures, Algorithm Design, Reinforcement Learning} \\
+    %  \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
+    %  \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
