@@ -119,4 +119,16 @@ textarea.oninput = function() {
   textarea.style.height = Math.min(textarea.scrollHeight, heightLimit) + "px";
 };
 
+// <!-- Global site tag (gtag.js) - Google Analytics -->
+// <script async src="https://www.googletagmanager.com/gtag/js?id=G-4PGJF0RWE2"></script>
+// <script>
+function googleAnalytics(){
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4PGJF0RWE2');
+}
+// </script>
+googleAnalytics();
 preloadtimer();
